@@ -18,10 +18,15 @@ This project utilizing a genetic algorithm and regression model to predict the n
 # Folders
 
 ### UnityProject
-
-### Database
+The whole project under unity
+https://docs.unity3d.com/Manual/index.html
 
 ### Model
+All the models used in the project for each parameter are in .h5 format.
+
+![Screenshot](https://github.com/EbonGit/Epidemic_Regression_Model/blob/main/Image/Netron_1.PNG)
+
+### Database
 The set of databases for each parameter, all parameters are fixed except for the parameter treated by this database.
 
 | Infected | Number | %Infected | %Quarantine | Infection Rate | Infection Time | Quarantine Time | Travel Time |
@@ -36,4 +41,16 @@ And all .pdf results from Google Colab for each parameters :
 
 
 # Installation
+
+To reuse the project:
+
+You can build the entire Unity project to get the simulation executable, and then use the code in [GenerateData.py](https://github.com/EbonGit/Epidemic_Regression_Model/blob/main/GenerateData.py) to create a database for each of the parameters. Finally, train the neural networks with [Epidemic_Regression_Model.ipynb](https://github.com/EbonGit/Epidemic_Regression_Model/blob/main/Epidemic_Regression_Model.ipynb).
+
+Or you can directly use the models [here](https://github.com/EbonGit/Epidemic_Regression_Model/tree/main/Model).
+
+To finally use the genetic algorithm in [Genetic_Algo.ipynb](https://github.com/EbonGit/Epidemic_Regression_Model/blob/main/Genetic_Algo.ipynb) in order to obtain the results
+
+![Screenshot](https://github.com/EbonGit/Epidemic_Regression_Model/blob/main/Image/algo_gen.png)
+
+Enjoy! 
 
