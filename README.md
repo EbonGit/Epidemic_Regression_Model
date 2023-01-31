@@ -19,7 +19,8 @@ This project utilizing a genetic algorithm and regression model to predict the n
 
 ### UnityProject
 The whole project under unity
-https://docs.unity3d.com/Manual/index.html
+
+Doc -> https://docs.unity3d.com/Manual/index.html
 
 ### Model
 All the models used in the project for each parameter are in .h5 format.
